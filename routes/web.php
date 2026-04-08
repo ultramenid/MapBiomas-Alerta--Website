@@ -7,7 +7,7 @@ use App\Http\Controllers\IndexController;
 use App\Http\Controllers\TimController;
 use App\Http\Middleware\CheckSession;
 use App\Http\Middleware\HasSession;
-use App\Http\Middleware\httpAuth;
+use App\Http\Middleware\HttpAuth;
 use App\Http\Middleware\setLanguage;
 use Illuminate\Support\Facades\Route;
 
