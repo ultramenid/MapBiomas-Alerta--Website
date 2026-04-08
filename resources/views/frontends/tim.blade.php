@@ -16,7 +16,7 @@
 
         <div class="flex sm:flex-row flex-col gap-9 flex-wrap mt-6 ">
             <div class="py-2 px-2 bg-gray-100 border-b border-alerta rounded text-center">
-                <img src="{{ asset('assets/validators/Achmad Rafly Gymnastiar.jpeg') }}" alt="Mapbiomas Alerta - Achmad Rafly Gymnastiar" class="rounded sm:h-48 h-60 sm:w-44 w-full object-cover object-center">
+                <img src="{{ asset('assets/validators/Achmad Rafly Gymnastiar copy.jpeg') }}" alt="Mapbiomas Alerta - Achmad Rafly Gymnastiar" class="rounded sm:h-48 h-60 sm:w-44 w-full object-cover object-center">
                 <a class="text-sm">Achmad Rafly Gymnastiar</a>
                 <div class="flex gap-2 py-3 justify-center">
                     <a x-data x-tooltip.raw="Alerta - Collection 1" class="h-3 w-3 rounded-full bg-alerta cursor-pointer"></a>
@@ -33,7 +33,7 @@
             </div>
 
             <div class="py-2 px-2 bg-gray-100 border-b border-alerta rounded text-center">
-                <img src="{{ asset('assets/validators/Aditya Prima Yudha.jpg') }}" alt="Mapbiomas Alerta - Aditya Prima Yudha" class="rounded sm:h-48 h-60 sm:w-44 w-full object-cover object-center">
+                <img src="{{ asset('assets/validators/Aditya Prima Yudha copy.jpg') }}" alt="Mapbiomas Alerta - Aditya Prima Yudha" class="rounded sm:h-48 h-60 sm:w-44 w-full object-cover object-center">
                 <a class="text-sm">Aditya Prima Yudha</a>
                 <div class="flex gap-2 py-3 justify-center">
                     <a x-data x-tooltip.raw="Alerta - Collection 1" class="h-3 w-3 rounded-full bg-alerta cursor-pointer"></a>

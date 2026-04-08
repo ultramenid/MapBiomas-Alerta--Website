@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>{{ $title ?? 'Page Title' }}</title>
-    <link rel="icon" type="image/x-icon" href="{{ asset('assets/thumbnail.png') }}">
+    <link rel="icon" type="image/x-icon" href="{{ asset('assets/favicon.ico') }}">
 
     {{-- @yield('meta') --}}
     <script

@@ -7,7 +7,7 @@
 
 
     <title>{{ $title ?? 'Page Title' }}</title>
-    <link rel="icon" type="image/x-icon" href="{{ asset('assets/thumbnail.png') }}">
+    <link rel="icon" type="image/x-icon" href="{{ asset('assets/favicon.ico') }}">
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">

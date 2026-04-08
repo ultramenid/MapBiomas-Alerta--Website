@@ -6,7 +6,7 @@
             </div>
 
             <div class="hover:bg-gray-200 dark:hover:bg-newgray-700 py-3 px-2 rounded @if($nav == 'faq' )border-b-2  dark:border-gray-300 border-newgray-900 @endif ">
-                <a href="{{url('/cms/listfaq')}}" class=" px-0.5  @if($nav == 'faq' )   text-newgray-900 dark:text-gray-300 @endif   hover:text-newgray-900 dark:hover:text-gray-300 cursor-pointer" >faq</a>
+                <a href="{{url('/cms/cmsfaq')}}" class=" px-0.5  @if($nav == 'faq' )   text-newgray-900 dark:text-gray-300 @endif   hover:text-newgray-900 dark:hover:text-gray-300 cursor-pointer" >faq</a>
             </div>
 
 
@@ -18,7 +18,7 @@
                     </svg>
                 </a>
                 <div class=" flex flex-col space-y-3  w-52  rounded absolute sm:mt-10 mt-10 z-20 bg-gray-200 dark:bg-newgray-700  px-4 py-2" x-show="pages" x-cloak style="display: none !important">
-                    <a  href="{{url('/cms/pageabout')}}" class="hover:text-newgray-900 dark:hover:text-gray-300">about</a>
+                    <a  href="{{url('/cms/pageabout')}}" class="hover:text-newgray-900 dark:hover:text-gray-300">who we are</a>
                 </div>
             </div>
 
