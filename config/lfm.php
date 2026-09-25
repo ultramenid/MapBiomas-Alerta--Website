@@ -15,7 +15,8 @@ return [
     |--------------------------------------------------------------------------
      */
 
-    'use_package_routes'       => true,
+    // Registered explicitly in routes/web.php behind auth; package routes would add an unguarded duplicate.
+    'use_package_routes'       => false,
 
     /*
     |--------------------------------------------------------------------------
@@ -59,7 +60,6 @@ return [
                 'image/png',
                 'image/gif',
                 'application/pdf',
-                'text/plain',
             ],
         ],
         'image' => [
@@ -115,6 +115,9 @@ return [
 
     // mimetypes of executables to prevent from uploading
     'disallowed_mimetypes' => ['text/x-php', 'text/html', 'text/plain'],
+
+    // extensions of executables to prevent from uploading
+    'disallowed_extensions' => ['php', 'phtml', 'phar', 'pht', 'phps', 'php3', 'php4', 'php5', 'php7', 'php8', 'html', 'htm', 'shtml', 'xhtml', 'svg', 'js', 'sh', 'pl', 'py', 'cgi'],
 
     // Item Columns
     'item_columns' => ['name', 'url', 'time', 'icon', 'is_file', 'is_image', 'thumb_url'],
